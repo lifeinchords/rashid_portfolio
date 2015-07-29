@@ -265,7 +265,7 @@ section#portfolio li { clear:both; }
 section#portfolio li h2 { margin:0; }
 section#portfolio li h2::after {   margin: 15px auto; }
 
-
+section#portfolio .col-md-4 {   padding-bottom: 5em; }
 
 .effects { padding-left: 15px; }
 .effects .img { position: relative; margin-bottom: 50px; position: relative; z-index: 1; overflow: hidden; }
