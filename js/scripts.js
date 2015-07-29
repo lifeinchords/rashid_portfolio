@@ -37,13 +37,13 @@ $(document).ready(function() {
 
 /***************** Slide-In Nav ******************/
 
-$(window).load(function() {
+// $(window).load(function() {
 
-	$('.nav_slide_button').click(function() {
-		$('.pull').slideToggle();
-	});
+// 	$('.nav_slide_button').click(function() {
+// 		$('.pull').slideToggle();
+// 	});
 
-});
+// });
 
 /***************** Smooth Scrolling ******************/
 
@@ -67,9 +67,9 @@ $(function() {
 
 /***************** Nav Transformicon ******************/
 
-document.querySelector("#nav-toggle").addEventListener("click", function() {
-	this.classList.toggle("active");
-});
+// document.querySelector("#nav-toggle").addEventListener("click", function() {
+// 	this.classList.toggle("active");
+// });
 
 /***************** Overlays ******************/
 
@@ -103,7 +103,7 @@ $(document).ready(function(){
     }
 });
 
-/***************** Flexsliders ******************/
+// /***************** Flexsliders ******************/
 
 $(window).load(function() {
 
@@ -118,26 +118,26 @@ $(window).load(function() {
 		}
 	});
 
-	$('#servicesSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+	// $('#servicesSlider').flexslider({
+	// 	animation: "slide",
+	// 	directionNav: false,
+	// 	controlNav: true,
+	// 	touch: true,
+	// 	pauseOnHover: true,
+	// 	start: function() {
+	// 		$.waypoints('refresh');
+	// 	}
+	// });
 
-	$('#teamSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-		start: function() {
-			$.waypoints('refresh');
-		}
-	});
+	// $('#teamSlider').flexslider({
+	// 	animation: "slide",
+	// 	directionNav: false,
+	// 	controlNav: true,
+	// 	touch: true,
+	// 	pauseOnHover: true,
+	// 	start: function() {
+	// 		$.waypoints('refresh');
+	// 	}
+	// });
 
 });
